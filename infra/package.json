@@ -1,0 +1,13 @@
+{
+  "name": "infra",
+  "private": true,
+  "version": "0.0.0",
+  "dependencies": {
+    "aws-cdk": "^2.1141.0",
+    "aws-cdk-lib": "^2.219.0",
+    "constructs": "^10.4.2"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.9"
+  }
+}

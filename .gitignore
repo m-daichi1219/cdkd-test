@@ -1,0 +1,25 @@
+memo.md
+# Dependencies
+node_modules
+
+# Builds
+dist
+*.tsbuildinfo
+
+# CDK
+cdk.out
+.cdk.staging
+cdk.context.json
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Logs / OS
+*.log
+.DS_Store
+
+# IDE
+.idea
+.vscode

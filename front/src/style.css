@@ -1,0 +1,14 @@
+:root {
+  font-family: "Segoe UI", "Hiragino Sans", sans-serif;
+  line-height: 1.5;
+  color: #1b1f24;
+  background: #f4f1ea;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}

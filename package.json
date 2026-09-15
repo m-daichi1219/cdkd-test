@@ -1,0 +1,24 @@
+{
+  "name": "cdkd-test",
+  "private": true,
+  "workspaces": [
+    "infra",
+    "backend",
+    "front"
+  ],
+  "scripts": {
+    "synth": "cdk synth",
+    "build:front": "npm run build --workspace=front",
+    "dev:front": "npm run dev --workspace=front",
+    "preview:front": "npm run preview --workspace=front"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "aws-cdk": "^2.1029.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
