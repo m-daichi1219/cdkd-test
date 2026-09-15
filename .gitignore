@@ -1,4 +1,3 @@
-memo.md
 # Dependencies
 node_modules
 
@@ -23,3 +22,4 @@ cdk.context.json
 # IDE
 .idea
 .vscode
+cli.md

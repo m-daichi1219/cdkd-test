@@ -20,5 +20,8 @@
   },
   "engines": {
     "node": ">=20"
+  },
+  "dependencies": {
+    "@go-to-k/cdkd": "^0.290.7"
   }
 }
